@@ -901,4 +901,46 @@ footer {
     font-size: 0.8rem;
     padding-left: 15px;
   }
+
+}
+/* ================ */
+/* Achievements Section */
+/* ================ */
+.achievements-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.achievement-card {
+  background: var(--bg-card);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px var(--shadow-color);
+  margin-bottom: 30px;
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+}
+
+.achievement-title {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.achievement-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.achievement-desc {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
